@@ -20,10 +20,12 @@ game_list = ["Devil May Cry 5", "World of Final Fantasy", "Super Mario Odyssey"]
 item = "Super Mario Odyssey"
 second_item = "Diablo 3"
 
+""" test for existing entry """
 result = linear_search(item, game_list)
 if result:
     print 'Found item: {}'.format(item)
 
+""" test for the in operator """
 result_two = linear_search(second_item, game_list)
 if result_two:
     print 'Found item: {}'.format(second_item)
